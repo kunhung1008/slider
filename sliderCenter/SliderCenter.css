@@ -1,13 +1,14 @@
 .container{
-	position:absolute;
-	top:0;
-	right:0;
-	left:0;
-	bottom:0;
-	margin:auto;
+
 	width:810px;
 	height:400px;
 	padding:10px;
+	position:absolute;;
+	margin:auto;
+	right:0;
+	left:0;
+	top:0;
+	bottom:0;
 	border:1px solid gray;
 	-webkit-box-sizing:border-box;
 	-moz-box-sizing:border-box;
@@ -16,8 +17,14 @@
 }
 .slider{
 
+
 	overflow: hidden;
-	position:relative;
+	position:absolute;
+	right:0;
+	left:0;
+	top:0;
+	bottom:0;
+	margin:auto;
 	width:750px;
 	height:295px;
 	left:20px;

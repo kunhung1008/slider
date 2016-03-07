@@ -47,6 +47,7 @@ function moveForward(){
 
 	ul.style.left = actuallyMove + 'px';
 	actuallyMove = actuallyMove - movePerTime;
+
 	if (count < 100){
 		count++;
 	}
@@ -62,6 +63,7 @@ function moveBack(){
 
 	ul.style.left = actuallyMove + 'px';
 	actuallyMove = actuallyMove + movePerTime;
+
 	if (count < 100){
 		count++;
 	}
